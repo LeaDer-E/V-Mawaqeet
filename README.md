@@ -1,21 +1,21 @@
-&lt;div align=&quot;center&quot;&gt;
+<div align="center">
 
-&lt;img src=&quot;assets/icon.png&quot; width=&quot;132&quot; alt=&quot;V-Mawaqeet logo&quot;&gt;
+<img src="assets/icon.png" width="132" alt="V-Mawaqeet logo">
 
 # V-Mawaqeet &nbsp;·&nbsp; مواقيت
 
 **A premium, bilingual desktop prayer-times app - smart reminders, iqama alerts, 32+ themes.**
 Built with C++17 and Qt 6. Arabic (true RTL) and English. Windows & Linux.
 
+![Version](https://img.shields.io/badge/version-2.6.0-d4a73e)
+![C++](https://img.shields.io/badge/C%2B%2B-17-00599C)
+![Qt](https://img.shields.io/badge/Qt-6-41cd52)
+![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux-555)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
+<img src="docs/screenshots/home-dark-rtl.png" width="900" alt="V-Mawaqeet home screen (dark, Arabic RTL)">
 
-
-
-
-
-&lt;img src=&quot;docs/screenshots/home-dark-rtl.png&quot; width=&quot;900&quot; alt=&quot;V-Mawaqeet home screen (dark, Arabic RTL)&quot;&gt;
-
-&lt;/div&gt;
+</div>
 
 ---
 
@@ -54,15 +54,15 @@ Built with C++17 and Qt 6. Arabic (true RTL) and English. Windows & Linux.
 
 | | |
 |---|---|
-|  |  |
+| ![Light theme, English, royal-blue palette](docs/screenshots/home-light-ltr.png) | ![Themes gallery](docs/screenshots/themes.png) |
 | *Light mode · English · Royal Blue palette* | *Themes page - 32 palettes + custom colour* |
-|  |  |
+| ![Settings](docs/screenshots/settings.png) | ![About dialog](docs/screenshots/about.png) |
 | *Settings - per-prayer alarm / reminder / iqama* | *About dialog* |
 
-
+![Notifications: adhan (with snooze) and iqama](docs/screenshots/notifications.png)
 *Notifications use the prayer's own scene as background. Left: adhan with quick and custom snooze. Right: compact iqama alert.*
 
-
+![Tray menu in English and Arabic](docs/screenshots/tray-menu.png)
 *Tray menu (English / Arabic): live countdown, today's times, navigation, alerts, theme & language switches.*
 
 > I Hope i have some time to add the screenshots.
@@ -280,8 +280,8 @@ flowchart LR
 - Hijri dates come from AlAdhan when online and from a tabular algorithm when offline (can differ by a day from moon sighting).
 - Always compare with your local religious authority; use *manual adjustment* if your mosque differs by a minute or two.
 
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;Calculation methods&lt;/b&gt; (key · AlAdhan id · Fajr° · Isha)&lt;/summary&gt;
+<details>
+<summary><b>Calculation methods</b> (key · AlAdhan id · Fajr° · Isha)</summary>
 
 | Key | Id | Fajr | Isha | Name |
 |---|---|---|---|---|
@@ -309,7 +309,7 @@ flowchart LR
 | `portugal` | 22 | 18° | 77 min | Portugal |
 | `moonsighting` | 15 | 18° | 18° | Moonsighting Committee Worldwide |
 
-&lt;/details&gt;
+</details>
 
 ## Architecture
 
