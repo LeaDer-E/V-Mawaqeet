@@ -1,0 +1,5 @@
+APP_NAME = "V-Mawaqeet"
+APP_VERSION = "2.6.0"
+DEV_NAME = "Eslam Mustafa"
+DEV_EMAIL = "eslaam.mustafa@gmail.com"
+DEV_PHONE = "+20 128 344 7065"
